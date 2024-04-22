@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Lớp</title>
+    <link rel="stylesheet" href="quanlylop.css">
+</head>
+
+<body>
+    <div class="sidebar">
+      
+        <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="quanlykhoa.html">Quản lý khoa</a></li>
+            <li><a href="quanlychuyennganh.html">Quản lý chuyên ngành</a></li>
+            <li><a href="quanlyhedaotao.html">Quản lý hệ đào tạo</a></li>
+            <li><a href="quanlynienkhoa.html">Quản lý niên khóa</a></li>
+            <li><a href="quanlylop.html">Quản lý lớp</a></li>
+            <li><a href="quanlygiaovien.html">Quản lý giáo viên</a></li>
+            <li><a href="quanlysinhvien.html">Quản lý sinh viên</a></li>
+            <li><a href="danhsachdoan.html">Danh sách đồ án</a></li>
+            <li><a href="quanlyhoidong.html">Quản lý hội đồng</a></li>
+            <li><a href="quanly.html">Quản lý</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Quản Lý Lớp</h1>
+        <div class="filters">
+            <select name="khoa" id="khoa">
+                <option value="">Chọn Khoa</option>
+               
+            </select>
+            <select name="chuyennganh" id="chuyennganh">
+                <option value="">Chọn Chuyên ngành</option>
+                
+            </select>
+            <select name="nienkhoa" id="nienkhoa">
+                <option value="">Chọn Niên khóa</option>
+                
+            </select>
+            <button class="search-button">Tìm kiếm</button>
+        </div>
+        <button class="add-button">Thêm mới</button>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tên Lớp</th>
+                        <th>Mã Lớp</th>
+                        <th>Ngày thành lập</th>
+                        <th>Mô tả</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Công Nghệ Thông Tin 1</td>
+                        <td>cntt1</td>
+                        <td>2012-09-01</td>
+                        <td>Mô tả về lớp Công Nghệ Thông Tin 1</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Công Nghệ Thông Tin 2</td>
+                        <td>cntt2</td>
+                        <td>2013-09-01</td>
+                        <td>Mô tả về lớp Công Nghệ Thông Tin 2</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Công Nghệ Thông Tin 2</td>
+                        <td>cntt2</td>
+                        <td>2013-09-01</td>
+                        <td>Mô tả về lớp Công Nghệ Thông Tin 2</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Công Nghệ Thông Tin 2</td>
+                        <td>cntt2</td>
+                        <td>2013-09-01</td>
+                        <td>Mô tả về lớp Công Nghệ Thông Tin 2</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</body>
+
+</html>

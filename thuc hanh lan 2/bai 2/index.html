@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Types Introduction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Introduction to Various Chart Types</h1>
+    <div id="charts">
+        <section id="scatterPlot" class="chart-section">
+            <h2>Scatter Plot</h2>
+            <p>Được sử dụng để hiển thị mối quan hệ giữa hai biến số hoặc nhiều biến số. Các điểm trên biểu đồ được phân tán trên mặt phẳng, mỗi điểm biểu thị một cặp giá trị của hai biến số.</p>
+            <canvas id="scatterChart" class="chart-canvas"></canvas>
+        </section>
+        <section id="lineChart" class="chart-section">
+            <h2>Line Chart</h2>
+            <p>Thường được sử dụng để theo dõi sự thay đổi của một biến số theo thời gian. Dữ liệu được biểu diễn bằng các đường liên tục nối các điểm dữ liệu.</p>
+            <canvas id="lineChartCanvas" class="chart-canvas"></canvas>
+        </section>
+        <section id="barChart" class="chart-section">
+            <h2>Bar Chart</h2>
+            <p>Biểu đồ này sử dụng các cột dọc để biểu diễn dữ liệu. Chiều cao của mỗi cột thường tương ứng với giá trị của biến số.</p>
+            <canvas id="barChartCanvas" class="chart-canvas"></canvas>
+        </section>
+        <section id="pieChart" class="chart-section">
+            <h2>Pie Chart</h2>
+            <p>Biểu đồ này chia vùng thành các phần tương ứng với tỷ lệ phần trăm của các giá trị trong dữ liệu. Mỗi phần được biểu diễn bằng một phần tròn, tỷ lệ góc của phần này so với tổng số góc là tỷ lệ phần trăm của giá trị đó.</p>
+            <canvas id="pieChartCanvas" class="chart-canvas"></canvas>
+        </section>
+        <section id="donutChart" class="chart-section">
+            <h2>Donut Chart</h2>
+            <p>Tương tự như biểu đồ tròn, nhưng có một lỗ ở giữa, tạo ra hình dạng giống như nhẫn. Thường được sử dụng để hiển thị tỷ lệ phần trăm của các phần trong dữ liệu.</p>
+            <canvas id="donutChartCanvas" class="chart-canvas"></canvas>
+        </section>
+        <section id="bubbleChart" class="chart-section">
+            <h2>Bubble Chart</h2>
+            <p>Biểu đồ này biểu diễn dữ liệu bằng cách sử dụng các bong bóng, trong đó diện tích của bong bóng thường tương ứng với giá trị của dữ liệu. Thường được sử dụng để so sánh ba hoặc bốn biến số.</p>
+            <canvas id="bubbleChartCanvas" class="chart-canvas"></canvas>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

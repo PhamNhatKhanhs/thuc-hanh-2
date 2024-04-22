@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Sinh Viên</title>
+    <link rel="stylesheet" href="quanlysinhvien.css">
+</head>
+<body>
+    <div class="sidebar">
+      
+        <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="quanlykhoa.html">Quản lý khoa</a></li>
+            <li><a href="quanlychuyennganh.html">Quản lý chuyên ngành</a></li>
+            <li><a href="quanlyhedaotao.html">Quản lý hệ đào tạo</a></li>
+            <li><a href="quanlynienkhoa.html">Quản lý niên khóa</a></li>
+            <li><a href="quanlylop.html">Quản lý lớp</a></li>
+            <li><a href="quanlygiaovien.html">Quản lý giáo viên</a></li>
+            <li><a href="quanlysinhvien.html">Quản lý sinh viên</a></li>
+            <li><a href="danhsachdoan.html">Danh sách đồ án</a></li>
+            <li><a href="quanlyhoidong.html">Quản lý hội đồng</a></li>
+            <li><a href="quanly.html">Quản lý</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Quản Lý Sinh Viên</h1>
+        <div class="filters">
+            <input type="text" placeholder="Mã sinh viên" id="search-msv">
+            <select name="khoa" id="khoa">
+                <option value="">Chọn Khoa</option>
+               
+            </select>
+            <select name="chuyennganh" id="chuyennganh">
+                <option value="">Chọn Chuyên ngành</option>
+                
+            </select>
+            <select name="lop" id="lop">
+                <option value="">Chọn lớp</option>
+               
+            </select>
+            <button class="search-button">Tìm kiếm</button>
+        </div>
+        <button class="add-button">Thêm mới</button>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã sinh viên</th>
+                        <th>Tên sinh viên</th>
+                        <th>Thông tin</th>
+                        <th>Hình ảnh</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>64DTH12345</td>
+                        <td>Trần Văn Phúc</td>
+                        <td>
+                            <ul>
+                                <li>Email: tranvanphuc@example.com</li>
+                                <li>Số điện thoại: 0975589372</li>
+                                <li>Ngày sinh: 1992-12-14</li>
+                                <li>Ngày gia nhập: 2010-09-01</li>
+                                <li>Mã số sinh viên: 12345</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Khoa: Công Nghệ Thông Tin</li>
+                                <li>Chuyên ngành: Hệ Thống Thông Tin</li>
+                                <li>Lớp: 64DTH01</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>64DTH23434</td>
+                        <td>Hoàng Thị Trang</td>
+                        <td>
+                            <ul>
+                                <li>Email: hoangthitrang@example.com</li>
+                                <li>Số điện thoại: 0965411418</li>
+                                <li>Ngày sinh: 1993-08-23</li>
+                                <li>Ngày gia nhập: 2011-09-01</li>
+                                <li>Mã số sinh viên: 23434</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Khoa: Công Nghệ Thông Tin</li>
+                                <li>Chuyên ngành: Hệ Thống Thông Tin</li>
+                                <li>Lớp: 64DTH01</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">Next</a>
+        </div>
+    </div>
+</body>
+</html>

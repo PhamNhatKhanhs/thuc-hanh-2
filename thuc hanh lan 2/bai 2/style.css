@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #f4f7f6;
+}
+
+#charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.chart-section {
+    width: calc(50% - 40px); 
+    margin: 20px;
+    padding: 2rem;
+    border: 1px solid #f49131;
+    border-radius: 1rem;
+    box-shadow: 0 0 16px rgba(0, 0, 0, alpha);
+    background: #251c35;
+    
+}
+
+.chart-section h2 {
+    margin-top: 0;
+    color: firebrick;
+}
+
+.chart-section p {
+    color: floralwhite;
+}
+
+.chart-canvas {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.chart-section {
+    transition: transform 0.3s;
+}
+
+.chart-section:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    color: #f4f7f6; 
+}
+
+.chart-section {
+    transition: transform 0.3s;
+}
+
+.chart-section:hover {
+    transform: scale(1.1);
+}
+body {
+    background-image: url('1.jpg');
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+
+ }
+ 
+

@@ -1,0 +1,171 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #34495e; 
+    color: white;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #2c3e50;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+    width: calc(100% - 220px);
+    min-height: 100vh;
+    background-color: white; 
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 24px; 
+    margin-bottom: 20px;
+}
+
+.add-button, .edit-button, .delete-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: #3498db; 
+    transition: background-color 0.3s;
+}
+
+.add-button:hover, .edit-button:hover, .delete-button:hover {
+    background-color: #2980b9; 
+}
+
+.delete-button {
+    background-color: #e74c3c; 
+}
+
+.delete-button:hover {
+    background-color: #c0392b; 
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pagination a {
+    color: #3498db;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #3498db;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.sidebar li {
+    border-bottom: 1px solid #050404;
+    padding: 10px; 
+}
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #34495e, #2c3e50);
+    color: white;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+    background-color: #2c3e50;
+}
+
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar li a:hover {
+    color: #3498db;
+}
+
+.sidebar li a i {
+    margin-right: 10px;
+}
+tbody {
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+    line-height: 1.5; 
+}

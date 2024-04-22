@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Giáo Viên</title>
+    <link rel="stylesheet" href="quanlygiaovien.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        
+        <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="quanlykhoa.html">Quản lý khoa</a></li>
+            <li><a href="quanlychuyennganh.html">Quản lý chuyên ngành</a></li>
+            <li><a href="quanlyhedaotao.html">Quản lý hệ đào tạo</a></li>
+            <li><a href="quanlynienkhoa.html">Quản lý niên khóa</a></li>
+            <li><a href="quanlylop.html">Quản lý lớp</a></li>
+            <li><a href="quanlygiaovien.html">Quản lý giáo viên</a></li>
+            <li><a href="quanlysinhvien.html">Quản lý sinh viên</a></li>
+            <li><a href="danhsachdoan.html">Danh sách đồ án</a></li>
+            <li><a href="quanlyhoidong.html">Quản lý hội đồng</a></li>
+            <li><a href="quanly.html">Quản lý</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Quản Lý Giáo Viên</h1>
+        <div class="filters">
+            <select name="khoa" id="khoa">
+                <option value="">Chọn Khoa</option>
+               
+            </select>
+            <select name="chuyennganh" id="chuyennganh">
+                <option value="">Chọn Chuyên ngành</option>
+                
+            </select>
+            <button class="search-button">Tìm kiếm</button>
+        </div>
+        <button class="add-button">Thêm mới</button>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hình ảnh</th>
+                        <th>Tên Giáo Viên</th>
+                        <th>Thông tin</th>
+                        <th>Khoa</th>
+                        <th>Chuyên ngành</th>
+                        <th>Thao Tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tbody>
+                    <tr>
+                        <td><img src="teacher.jpg" alt="Teacher Photo" style="width:300px;height:auto;">
+                        </td>
+                        <td>Bùi Thị Nhu</td>
+                        <td>
+                            <ul>
+                                <li>Email: buithinhul@example.com</li>
+                                <li>Phone: 0995651611</li>
+                                <li>Address: Bạch Mai, Hai Bà Trưng, Hà Nội</li>
+                                <li>Join Date: 1998-03-12</li>
+                                <li>Birthday: 1980</li>
+                            </ul>
+                        </td>
+                        <td>Công Nghệ Thông Tin</td>
+                        <td>Hệ Thống Thông Tin</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="teacher2.jpg" alt="Teacher Photo" style="width:300px;height:auto;">
+                        </td>
+                        <td>Nguyễn Hữu Tuấn</td>
+                        <td>
+                            <ul>
+                                <li>Email: nguyenhuutuan@example.com</li>
+                                <li>Phone: 0978524464</li>
+                                <li>Address: Hoàng Mai, Hà Nội</li>
+                                <li>Join Date: 2012-07-15</li>
+                                <li>Birthday: 1985</li>
+                            </ul>
+                        </td>
+                        <td>Công Nghệ Thông Tin</td>
+                        <td>Hệ Thống Thông Tin</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">Next</a>
+        </div>
+    </div>
+</body>
+
+</html>

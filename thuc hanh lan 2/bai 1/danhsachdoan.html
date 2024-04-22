@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh Sách Đồ Án</title>
+    <link rel="stylesheet" href="danhsachdoan.css">
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="quanlykhoa.html">Quản lý khoa</a></li>
+            <li><a href="quanlychuyennganh.html">Quản lý chuyên ngành</a></li>
+            <li><a href="quanlyhedaotao.html">Quản lý hệ đào tạo</a></li>
+            <li><a href="quanlynienkhoa.html">Quản lý niên khóa</a></li>
+            <li><a href="quanlylop.html">Quản lý lớp</a></li>
+            <li><a href="quanlygiaovien.html">Quản lý giáo viên</a></li>
+            <li><a href="quanlysinhvien.html">Quản lý sinh viên</a></li>
+            <li><a href="danhsachdoan.html">Danh sách đồ án</a></li>
+            <li><a href="quanlyhoidong.html">Quản lý hội đồng</a></li>
+            <li><a href="quanly.html">Quản lý</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Danh Sách Đồ Án</h1>
+        <div class="filters">
+            <input type="text" placeholder="Tên đồ án" id="search-project-name">
+            <input type="text" placeholder="Mã sinh viên" id="search-student-id">
+            <select name="giaovien" id="giaovien">
+                <option value="">Chọn giáo viên hướng dẫn</option>
+                
+            </select>
+            <select name="khoa" id="khoa">
+                <option value="">Chọn Khoa</option>
+                
+            </select>
+            <select name="chuyennganh" id="chuyennganh">
+                <option value="">Chọn Chuyên ngành</option>
+                
+            </select>
+            <select name="lop" id="lop">
+                <option value="">Chọn lớp</option>
+                
+            </select>
+            <button class="search-button">Tìm kiếm</button>
+        </div>
+        <button class="add-button">Thêm mới</button>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nguồn</th>
+                        <th>Tên đồ án</th>
+                        <th>Giáo viên PB & HĐ</th>
+                        <th>Người thực hiện</th>
+                        <th>Thông tin</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Link Online</li>
+                                <li>Download Offline</li>
+                            </ul>
+                        </td>
+                        <td>Xây dựng website quản lý đồ án tốt nghiệp</td>
+                        <td>64DTH12345</td>
+                        <td>Lê Văn Tâm</td>
+                        <td>Nguyễn Thị Hằng</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Link Online</li>
+                                <li>Download Offline</li>
+                            </ul>
+                        </td>
+                        <td>Záy dựng hệ thống cửa hàng lưu niệm</td>
+                        <td>64DTH23456</td>
+                        <td>Thái Thị Thơm</td>
+                        <td>Trương Thị Trang</td>
+                        <td>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    
+                </tbody>
